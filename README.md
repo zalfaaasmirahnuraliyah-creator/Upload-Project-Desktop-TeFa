@@ -33,7 +33,7 @@ Berikut adalah estimasi tahapan pengerjaan proyek berdasarkan siklus pengembanga
 
 Sistem ini menggunakan database lokal **SQLite** dengan struktur relasi antar tabel sebagai berikut:
 
-[MERMAID_START]mermaid
+```mermaid
 erDiagram
     CATEGORIES ||--o{ ITEMS : "contains"
     SUPPLIERS ||--o{ ITEMS : "supplies"
@@ -71,7 +71,7 @@ erDiagram
         date transaction_date
         string notes
     }
-[MERMAID_END]
+```
 
 **Flowchart Sistem Manajemen Inventaris**
 
